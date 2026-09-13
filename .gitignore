@@ -1,0 +1,6 @@
+# Rust stuff.
+/target
+
+# macOS Stuff. :(
+.DS_Store
+._*

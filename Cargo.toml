@@ -1,0 +1,13 @@
+[package]
+name = "wasm-pngquant"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+imagequant = { version = "4.0", default-features = false }
+rgb = "0.8" # Add this line
+png = "0.17"
